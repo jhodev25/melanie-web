@@ -1,8 +1,8 @@
-import './App.css';
+import './index.css';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="h-screen bg-off-white">
       <div>hello</div>
     </div>
   );
