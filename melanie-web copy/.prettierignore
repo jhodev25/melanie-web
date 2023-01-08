@@ -1,0 +1,19 @@
+# Ignore artifacts:
+build
+coverage
+dist
+docs
+.*ignore
+
+.editorconfig
+.env
+.env.production
+.env.test
+.husky/pre-commit
+.npmrc
+.nvmrc
+CODEOWNDERS
+Jenkinsfile
+.husky/*
+/src/assets
+reports/
