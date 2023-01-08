@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "concurrently -n prettier,eslint \"prettier . '!**/*.{js,jsx,ts,tsx}'\" \"eslint",
+    "lint:fix": "concurrently -n prettier,eslint \"prettier --write . '!**/*.{js,jsx,ts,tsx}'\" \"eslint --fix.\""
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
