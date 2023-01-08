@@ -1,10 +1,12 @@
+import { Providers } from './containers/providers';
+import { RouteContainer } from './containers/route-container';
 import './index.css';
 
 const App = () => {
   return (
-    <div className="h-screen bg-off-white">
-      <div>hello</div>
-    </div>
+    <Providers>
+      <RouteContainer />
+    </Providers>
   );
 };
 
