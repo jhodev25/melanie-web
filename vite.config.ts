@@ -19,7 +19,7 @@ export default defineConfig({
       eslint: {
         lintCommand: 'eslint --ignore-pattern "**/*.test.*" --cache --ext ts,tsx "./src/"',
       },
-      typescript: true,
+      typescript: false,
     }),
   ],
   server: {

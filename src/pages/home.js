@@ -1,4 +1,4 @@
-import { melHome } from 'assets/images';
+import { melHome } from '../assets/images';
 
 export const Home = () => {
   return (

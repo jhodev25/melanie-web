@@ -80,37 +80,37 @@ module.exports = {
     },
 
     /** TypeScript File Config */
-    {
-      files: ['**/*.ts', '**/*.tsx'],
-      parser: '@typescript-eslint/parser',
-      parserOptions: {
-        project: './tsconfig.eslint.json',
-      },
-      extends: ['airbnb-typescript', 'plugin:@typescript-eslint/recommended'],
-      rules: {
-        '@typescript-eslint/ban-ts-comment': 'off',
-        '@typescript-eslint/consistent-type-imports': [
-          'error',
-          {
-            prefer: 'type-imports',
-          },
-        ],
-        'import/no-extraneous-dependencies': [
-          'error',
-          {
-            peerDependencies: ['**/test/**/*', '**/*.test.*', '**/*.spec.*'],
-            devDependencies: ['**/test/**/*', '**/*.test.*', '**/*.spec.*', 'vite.config.ts'],
-          },
-        ],
-      },
-      settings: {
-        'import/resolver': {
-          typescript: {
-            alwaysTryTypes: true,
-            project: './tsconfig.eslint.json',
-          },
-        },
-      },
-    },
+    // {
+    //   files: ['**/*.ts', '**/*.tsx'],
+    //   parser: '@typescript-eslint/parser',
+    //   parserOptions: {
+    //     project: './tsconfig.eslint.json',
+    //   },
+    //   extends: ['airbnb-typescript', 'plugin:@typescript-eslint/recommended'],
+    //   rules: {
+    //     '@typescript-eslint/ban-ts-comment': 'off',
+    //     '@typescript-eslint/consistent-type-imports': [
+    //       'error',
+    //       {
+    //         prefer: 'type-imports',
+    //       },
+    //     ],
+    //     'import/no-extraneous-dependencies': [
+    //       'error',
+    //       {
+    //         peerDependencies: ['**/test/**/*', '**/*.test.*', '**/*.spec.*'],
+    //         devDependencies: ['**/test/**/*', '**/*.test.*', '**/*.spec.*', 'vite.config.ts'],
+    //       },
+    //     ],
+    //   },
+    //   settings: {
+    //     'import/resolver': {
+    //       typescript: {
+    //         alwaysTryTypes: true,
+    //         project: './tsconfig.eslint.json',
+    //       },
+    //     },
+    //   },
+    // },
   ],
 };

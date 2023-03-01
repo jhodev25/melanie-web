@@ -1,2 +1,2 @@
-import { melHome } from './melHome.jpeg';
-;
+import melHome from "*.jpeg";
+export { melHome };
