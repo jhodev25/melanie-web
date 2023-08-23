@@ -1,17 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { Providers } from './containers/providers';
+import { RouteContainer } from './containers/route-container';
+import './index.css';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <div className="App">
-      <div>
-        hello
-      </div>
-    </div>
-  )
-}
+    <Providers>
+      <RouteContainer />
+    </Providers>
+  );
+};
 
-export default App
+export default App;
