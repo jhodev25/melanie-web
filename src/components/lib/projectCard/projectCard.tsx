@@ -1,8 +1,11 @@
+import { Button } from '@mui/material';
+
 import type { FC } from 'react';
 
 interface Props {
   imgSrc: string;
   eventTitle: string;
+  route: string;
   timeline: string;
 }
 
@@ -12,7 +15,9 @@ export const ProjectCard: FC<Props> = (props) => {
       <img src={props.imgSrc} alt="projectPhoto" />
       <br />
       <div className="divide-y">
-        <h1 className="font-medium text-3xl underline-offset-1">{props.eventTitle}</h1>
+        <Button onClick={() => window.location.assign(`/${props.route}`)} variant="text">
+          {props.eventTitle}
+        </Button>
         <h3>{props.timeline}</h3>
       </div>
     </div>
