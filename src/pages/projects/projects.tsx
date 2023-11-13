@@ -1,11 +1,9 @@
 import { melHome } from 'assets/images';
-import { MenuButton } from 'components/lib/menu';
 import { ProjectCard } from 'components/lib/projectCard';
 
 export const Projects = () => {
   return (
     <div>
-      <MenuButton />
       Projects
       <div className="grid grid-cols-3">
         <ProjectCard imgSrc={melHome} eventTitle="Event Coordination" route="eventcoordination" timeline="2021-2022" />
@@ -24,7 +22,7 @@ export const Projects = () => {
         <ProjectCard imgSrc={melHome} eventTitle="Influencer Marketing" route="influencermarketing" timeline="2021" />
         <ProjectCard
           imgSrc={melHome}
-          eventTitle="Marketing + Merchandising Internship"
+          eventTitle="Marketing And Merchandising Internship"
           route="marketingmerchandisinginternship"
           timeline="2019"
         />

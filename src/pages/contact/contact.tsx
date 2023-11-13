@@ -1,11 +1,9 @@
 import { melHome } from 'assets/images';
-import { MenuButton } from 'components/lib/menu';
 
 export const Contact = () => {
   return (
-    <div className="w-auto h-screen columns-2">
+    <div className="w-auto h-auto columns-2">
       <div>
-        <MenuButton />
         <h1>Contact Me</h1>
         <h2>Location</h2>
         <h3>San Francisco Bay Area, California</h3>
