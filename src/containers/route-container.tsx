@@ -11,6 +11,8 @@ const Contact = lazy(() => import('pages').then((res) => ({ default: res.Contact
 const EventCoordination = lazy(() => import('pages').then((res) => ({ default: res.EventCoordination })));
 const PartnershipMarketing = lazy(() => import('pages').then((res) => ({ default: res.PartnershipMarketing })));
 const InfluencerMarketing = lazy(() => import('pages').then((res) => ({ default: res.InfluencerMarketing })));
+const MarketingMerchandising = lazy(() => import('pages').then((res) => ({ default: res.MarketingMerchandising })));
+const About = lazy(() => import('pages').then((res) => ({ default: res.About })));
 
 export const RouteContainer = () => {
   return (
@@ -24,6 +26,8 @@ export const RouteContainer = () => {
         <Route element={<EventCoordination />} path="/eventcoordination" />
         <Route element={<PartnershipMarketing />} path="/partnershipmarketing" />
         <Route element={<InfluencerMarketing />} path="/influencermarketing" />
+        <Route element={<MarketingMerchandising />} path="/marketingmerchandisinginternship" />
+        <Route element={<About />} path="/about" />
       </Routes>
     </Suspense>
   );

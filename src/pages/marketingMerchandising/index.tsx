@@ -1,0 +1,1 @@
+export { MarketingMerchandising } from './marketingMerchandising';
