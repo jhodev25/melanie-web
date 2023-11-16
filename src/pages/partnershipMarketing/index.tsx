@@ -1,0 +1,1 @@
+export { PartnershipMarketing } from './partnershipMarketing';

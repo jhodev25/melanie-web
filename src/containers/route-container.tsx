@@ -9,6 +9,8 @@ const SocialMediaManagement = lazy(() => import('pages').then((res) => ({ defaul
 const Projects = lazy(() => import('pages').then((res) => ({ default: res.Projects })));
 const Contact = lazy(() => import('pages').then((res) => ({ default: res.Contact })));
 const EventCoordination = lazy(() => import('pages').then((res) => ({ default: res.EventCoordination })));
+const PartnershipMarketing = lazy(() => import('pages').then((res) => ({ default: res.PartnershipMarketing })));
+const InfluencerMarketing = lazy(() => import('pages').then((res) => ({ default: res.InfluencerMarketing })));
 
 export const RouteContainer = () => {
   return (
@@ -20,6 +22,8 @@ export const RouteContainer = () => {
         <Route element={<Projects />} path="/projects" />
         <Route element={<Contact />} path="/contact" />
         <Route element={<EventCoordination />} path="/eventcoordination" />
+        <Route element={<PartnershipMarketing />} path="/partnershipmarketing" />
+        <Route element={<InfluencerMarketing />} path="/influencermarketing" />
       </Routes>
     </Suspense>
   );
