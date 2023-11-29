@@ -1,5 +1,5 @@
 import { melHome } from 'assets/images';
-import { ProjectCard } from 'components/lib/projectCard';
+import { ProjectCard } from 'components';
 
 export const Projects = () => {
   return (

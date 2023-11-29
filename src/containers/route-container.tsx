@@ -2,7 +2,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 import { Suspense, lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import { MenuButton } from 'components/lib/menu';
+import { TabMenu } from 'components';
 
 const Home = lazy(() => import('pages').then((res) => ({ default: res.Home })));
 const SocialMediaManagement = lazy(() => import('pages').then((res) => ({ default: res.SocialMediaManagement })));
@@ -17,7 +17,7 @@ const About = lazy(() => import('pages').then((res) => ({ default: res.About }))
 export const RouteContainer = () => {
   return (
     <Suspense fallback={<CircularProgress />}>
-      <MenuButton />
+      <TabMenu />
       <Routes>
         <Route element={<Home />} path="/" />
         <Route element={<SocialMediaManagement />} path="/socialmediamanagement" />
