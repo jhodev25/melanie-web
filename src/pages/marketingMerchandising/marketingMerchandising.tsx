@@ -1,11 +1,11 @@
-import { melHome } from 'assets/images';
+import { internship, melHome } from 'assets/images';
 
 export const MarketingMerchandising = () => {
   return (
     <div>
       <h1>MARKETING + MERCHANDISING INTERNSHIP</h1>
       <div className="columns-2">
-        <img src={melHome} alt="cover" />
+        <img src={internship} alt="cover" />
         <h2>DESCRIPTION</h2>
         <h3>
           During the summer of 2019, I had the privilege of interning at Chamber Music Northwest, a non- profit musical

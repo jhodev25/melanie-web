@@ -1,12 +1,12 @@
-import { melHome } from 'assets/images';
+import { influencerFour, influencerOne, influencerSeven, influencerThree, melHome } from 'assets/images';
 
 export const InfluencerMarketing = () => {
   return (
     <div className="w-auto h-auto">
       <div className="columns-2 bg-red-300">
         <div>
-          <img src={melHome} alt="cover" />
-          <img src={melHome} alt="cover" />
+          <img src={influencerOne} alt="cover" />
+          <img src={influencerSeven} alt="cover" />
         </div>
         <div>
           <h1>INFLUENCER MARKETING</h1>
@@ -68,11 +68,11 @@ export const InfluencerMarketing = () => {
             report, underscoring the high quality and effectiveness of the campaign.
           </h3>
         </div>
-        <img src={melHome} alt="cover" />
+        <img src={influencerFour} alt="cover" />
       </div>
       <div className="columns-2">
-        <img src={melHome} alt="cover" />
-        <img src={melHome} alt="cover" />
+        <img src={influencerSeven} alt="cover" />
+        <img src={influencerThree} alt="cover" />
       </div>
     </div>
   );

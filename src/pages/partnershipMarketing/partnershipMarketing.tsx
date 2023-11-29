@@ -1,4 +1,12 @@
-import { melHome } from 'assets/images';
+import {
+  partnershipThornsOne,
+  partnershipThornsTwo,
+  partnershipsNerlino,
+  partnershipsOne,
+  partnershipsTedxOne,
+  partnershipsTedxTwo,
+  partnershipsTwo,
+} from 'assets/images';
 
 export const PartnershipMarketing = () => {
   return (
@@ -15,8 +23,8 @@ export const PartnershipMarketing = () => {
           </h3>
         </div>
         <div className="">
-          <img src={melHome} alt="cover" />
-          <img src={melHome} alt="cover" />
+          <img src={partnershipsOne} alt="winery sign" />
+          <img src={partnershipsTwo} alt="cheese board" />
         </div>
       </div>
       <div className="text-center">
@@ -52,8 +60,8 @@ export const PartnershipMarketing = () => {
         </h3>
       </div>
       <div className="columns-2 bg-green-500">
-        <img src={melHome} alt="cover" />
-        <img src={melHome} alt="cover" />
+        <img src={partnershipThornsOne} alt="thorns mel" />
+        <img src={partnershipThornsTwo} alt="thorns field" />
         <div>
           <h2>OUTCOMES</h2>
           <h3>
@@ -88,7 +96,7 @@ export const PartnershipMarketing = () => {
         </h3>
         <h2>Michael Nerlino</h2>
         <h3>Owner, Founder, Head Designer - Nerlino Bespoke</h3>
-        <img src={melHome} alt="cover" />
+        <img src={partnershipsNerlino} alt="porsche shoe" />
       </div>
       <div className="text-center">
         <h2>LIST OF PARTNERS</h2>
@@ -106,8 +114,8 @@ export const PartnershipMarketing = () => {
         <h3>Nerlino Bespoke</h3>
       </div>
       <div className="columns-2">
-        <img src={melHome} alt="cover" />
-        <img src={melHome} alt="cover" />
+        <img src={partnershipsTedxOne} alt="porsche tedx" />
+        <img src={partnershipsTedxTwo} alt="mel mota" />
       </div>
     </div>
   );

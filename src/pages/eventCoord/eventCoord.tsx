@@ -1,5 +1,6 @@
 import { Button } from '@mui/material';
-import { melHome } from 'assets/images';
+
+import { eventsFifteen, eventsFive, eventsFourteen, eventsMel, eventsNine, melHome } from 'assets/images';
 
 export const EventCoordination = () => {
   return (
@@ -16,13 +17,13 @@ export const EventCoordination = () => {
           I was entrusted with significant autonomy, empowering me to drive creative direction and make strategic
           decisions in collaboration with our Marketing Director.
         </h3>
-        <img src={melHome} alt="cover" />
+        <img src={eventsMel} alt="mel" />
       </div>
       <div className="h-auto">
         <h2 className="text-center">RESPONSIBILITIES</h2>
         <div className="columns-2">
           <div className="m-auto">
-            <img src={melHome} alt="cover" />
+            <img src={eventsNine} alt="event space" />
           </div>
           <div className="h-fit bg-cyan-300">
             <h3>
@@ -59,12 +60,12 @@ export const EventCoordination = () => {
           Provided hands-on, on-site supervision during event setup and tear-down, contributing to the seamless
           execution of events while ensuring the accordance of facility guidelines and guest safety.
         </h3>
-        <img src={melHome} alt="cover" />
+        <img src={eventsFifteen} alt="porsche store" />
       </div>
       <div className="columns-3">
+        <img src={eventsFive} alt="cover" />
         <img src={melHome} alt="cover" />
-        <img src={melHome} alt="cover" />
-        <img src={melHome} alt="cover" />
+        <img src={eventsFourteen} alt="cover" />
       </div>
       <div className="content-center bg-orange-400">
         <h3>

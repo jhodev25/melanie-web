@@ -1,4 +1,4 @@
-import { melHome } from 'assets/images';
+import { melHome, socialOne, socialTwo } from 'assets/images';
 
 export const SocialMediaManagement = () => {
   return (
@@ -7,7 +7,7 @@ export const SocialMediaManagement = () => {
         <h1 className="font-title text-9xl">Social Media Management</h1>
         <div className="grid grid-cols-2">
           <div>
-            <img src={melHome} alt="mel home" />
+            <img src={socialOne} alt="mel home" />
           </div>
           <div className="m-auto">
             <h2>Description</h2>
@@ -87,7 +87,7 @@ export const SocialMediaManagement = () => {
             <br />
           </div>
           <div>
-            <img src={melHome} alt="melHome" />
+            <img src={socialTwo} alt="wine glass" />
           </div>
         </div>
       </div>
