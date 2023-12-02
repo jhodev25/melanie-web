@@ -4,7 +4,7 @@ import { melHome } from 'assets/images';
 
 export const Home = () => {
   return (
-    <div className="w-auto h-screen bg-beige columns-2">
+    <div className="w-auto h-screen bg-black text-white columns-2">
       <img src={melHome} alt="cover" />
       <div>
         <h1 className="font-title text-9xl">Melanie Ngai</h1>

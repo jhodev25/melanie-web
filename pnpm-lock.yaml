@@ -30,6 +30,7 @@ specifiers:
   eslint-plugin-testing-library: ^5.9.1
   eslint-plugin-vitest-globals: ^1.2.0
   jsdom: ^21.0.0
+  material-ui-colors: ^1.0.0
   node-fetch: ^3.3.0
   postcss: ^8.4.21
   prettier: ^2.8.2
@@ -84,6 +85,7 @@ devDependencies:
   eslint-plugin-testing-library: 5.9.1_iukboom6ndih5an6iafl45j2fe
   eslint-plugin-vitest-globals: 1.2.0
   jsdom: 21.0.0
+  material-ui-colors: 1.0.0
   node-fetch: 3.3.0
   postcss: 8.4.21
   prettier: 2.8.2
@@ -3046,6 +3048,10 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
+
+  /material-ui-colors/1.0.0:
+    resolution: {integrity: sha512-3VqwlQrWIs9vP4hsV9Zj9wLGlb1tSBidzX5HCk6EKH/B2dsIYFuTQivmn3QpBvukod/K1vFh+fHxJVsfYM1JgQ==}
     dev: true
 
   /merge2/1.4.1:
