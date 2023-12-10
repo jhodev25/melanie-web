@@ -19,17 +19,19 @@ export const RouteContainer = () => {
     <Suspense fallback={<CircularProgress />}>
       <div className="flex flex-col min-h-screen">
         <TabMenu />
-        <Routes>
-          <Route element={<Home />} path="/" />
-          <Route element={<SocialMediaManagement />} path="/socialmediamanagement" />
-          <Route element={<Projects />} path="/projects" />
-          <Route element={<Contact />} path="/contact" />
-          <Route element={<EventCoordination />} path="/eventcoordination" />
-          <Route element={<PartnershipMarketing />} path="/partnershipmarketing" />
-          <Route element={<InfluencerMarketing />} path="/influencermarketing" />
-          <Route element={<MarketingMerchandising />} path="/marketingmerchandisinginternship" />
-          <Route element={<About />} path="/about" />
-        </Routes>
+        <div className="flex-grow mt-16 bg-black">
+          <Routes>
+            <Route element={<Home />} path="/" />
+            <Route element={<SocialMediaManagement />} path="/socialmediamanagement" />
+            <Route element={<Projects />} path="/projects" />
+            <Route element={<Contact />} path="/contact" />
+            <Route element={<EventCoordination />} path="/eventcoordination" />
+            <Route element={<PartnershipMarketing />} path="/partnershipmarketing" />
+            <Route element={<InfluencerMarketing />} path="/influencermarketing" />
+            <Route element={<MarketingMerchandising />} path="/marketingmerchandisinginternship" />
+            <Route element={<About />} path="/about" />
+          </Routes>
+        </div>
       </div>
     </Suspense>
   );

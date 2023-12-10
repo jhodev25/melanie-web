@@ -3,9 +3,9 @@ import { ProjectCard } from 'components';
 
 export const Projects = () => {
   return (
-    <div className="flex-grow mt-16 bg-black">
-      <h1 className="text-white bg-black font-title text-7xl h-fit pt-5 pl-5 pr-5">Projects</h1>
-      <div className="h-full grid grid-cols-3 pb-24 bg-black">
+    <div className="bg-black">
+      <h1 className="pt-5 pl-5 pr-5 text-white bg-black font-title text-7xl h-fit">Projects</h1>
+      <div className="grid h-full grid-cols-3 pb-24 bg-black">
         <ProjectCard
           imgSrc={projectsEventCoordination}
           eventTitle="Event Coordination"

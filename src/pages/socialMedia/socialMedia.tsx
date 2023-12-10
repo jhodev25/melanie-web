@@ -5,11 +5,11 @@ export const SocialMediaManagement = () => {
     <>
       <div className="bg-black">
         <div className="grid grid-cols-2">
-          <div>
+          <div className="flex flex-col items-center justify-center w-2/3 h-2/3">
             <img src={socialOne} alt="mel home" />
           </div>
           <div className="m-auto">
-            <h1 className="font-title text-9xl">Social Media Management</h1>
+            <h1 className="pt-5 font-title text-9xl">Social Media Management</h1>
             <h2>Description</h2>
             <h3>
               I led the management of our two flagship social media accounts, primarily focusing on building and
@@ -27,37 +27,37 @@ export const SocialMediaManagement = () => {
           <br />
         </div>
       </div>
-      <div className="bg-olive h-auto">
+      <div className="h-auto bg-olive">
         <br />
-        <h2 className="font-title text-5xl text-white text-center">Responsibilities</h2>
+        <h2 className="text-5xl text-center text-white font-title">Responsibilities</h2>
         <br />
-        <h3 className="font-title text-3xl text-white text-center">
+        <h3 className="text-3xl text-center text-white font-title">
           Developed and executed content strategies for daily posts, including photos, videos, and stories, maintaining
           brand integrity.
         </h3>
         <br />
-        <h3 className="font-title text-3xl text-white text-center">
+        <h3 className="text-3xl text-center text-white font-title">
           Engaged with the online community, providing personalized responses to both positive and negative feedback,
           working with department managers when conflicts arose.
         </h3>
         <br />
-        <h3 className="font-title text-3xl text-white text-center">
+        <h3 className="text-3xl text-center text-white font-title">
           Curated thoughtful and personalized responses to customer reviews, collaborating with department managers to
           accurately investigate any dissatisfaction and reach amiable conclusions for all parties.
         </h3>
         <br />
-        <h3 className="font-title text-3xl text-white text-center">
+        <h3 className="text-3xl text-center text-white font-title">
           Managed customer reviews, collaborating with department heads to address issues and ensure customer
           satisfaction.
         </h3>
         <br />
-        <h3 className="font-title text-3xl text-white text-center">
+        <h3 className="text-3xl text-center text-white font-title">
           Analyzed trends, KPIs, and promotional schedules to optimize social media strategies. Utilized digital tools
           like Later, Linktree, Adobe Photoshop, and UTM links to streamline content production and delivery.
         </h3>
         <br />
       </div>
-      <div className="bg-beige h-auto">
+      <div className="h-auto bg-beige">
         <div className="grid grid-cols-2">
           <div className="m-auto">
             <h2 className="text-olive">Outcomes</h2>

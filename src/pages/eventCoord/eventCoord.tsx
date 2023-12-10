@@ -1,23 +1,23 @@
-import { Button, Paper } from '@mui/material';
+import { Button } from '@mui/material';
 
 import { eventsFifteen, eventsFive, eventsFourteen, eventsMel, eventsNine, melHome } from 'assets/images';
 import { RoundedPaper } from 'components';
 
 export const EventCoordination = () => {
   return (
-    <div className="flex-grow mt-16 text-white bg-black pl-5 pr-5">
-      <h1 className="font-title text-7xl pt-5">Event Coordination</h1>
+    <div className="pl-5 pr-5 text-white bg-black">
+      <h1 className="pt-5 font-title text-7xl">Event Coordination</h1>
       <div className="columns-2">
         <br />
-        <h2 className="font-subheading text-2xl text-olive">LEAD EVENT COORDINATOR</h2>
+        <h2 className="text-2xl font-subheading text-olive">LEAD EVENT COORDINATOR</h2>
         <br />
-        <h3 className="font-body text-base">
+        <h3 className="text-base font-body">
           I spearheaded event planning initiatives in my role post-COVID-19 in 2021-2022. My responsibilities
           encompassed a wide range of events, with attendees ranging from 15 to 200, spanning both large-scale and
           intimate gatherings, hosted both at our dealership and various off-site locations.
         </h3>
         <br />
-        <h3 className="font-body text-base">
+        <h3 className="text-base font-body">
           I was entrusted with significant autonomy, empowering me to drive creative direction and make strategic
           decisions in collaboration with our Marketing Director.
         </h3>
@@ -25,9 +25,9 @@ export const EventCoordination = () => {
       </div>
       <div className="h-auto p-3">
         <br />
-        <h2 className="font-subheading text-2xl text-center text-olive">RESPONSIBILITIES</h2>
+        <h2 className="text-2xl text-center font-subheading text-olive">RESPONSIBILITIES</h2>
         <br />
-        <div className="columns-2 h-full">
+        <div className="h-full columns-2">
           <div className="h-max">
             <img src={eventsNine} alt="event space" />
           </div>
@@ -86,7 +86,7 @@ export const EventCoordination = () => {
       </div>
       <br />
       <br />
-      <div className="w-screen h-full flex flex-col justify-center items-center">
+      <div className="flex flex-col items-center justify-center w-screen h-full">
         <RoundedPaper
           body="During her time with Porsche Beaverton, I had the pleasure
             of partnering with Melanie in my role as Sales & Hospitality
@@ -101,14 +101,14 @@ export const EventCoordination = () => {
         />
         <br />
         <div>
-          <h2 className="text-white text-right text-3xl">Matthew Melito</h2>
+          <h2 className="text-3xl text-right text-white">Matthew Melito</h2>
           <h3 className="text-right">Sales & Hospitality Coordinator, Domaine Divio</h3>
         </div>
       </div>
       <br />
       <br />
       <div className="pb-10">
-        <h1 className="text-center text-6xl">CHRONOLOGY OF EVENTS</h1>
+        <h1 className="text-6xl text-center">CHRONOLOGY OF EVENTS</h1>
         <br />
         <div className="columns-2">
           <div>
