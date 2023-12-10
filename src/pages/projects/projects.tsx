@@ -1,11 +1,11 @@
-import { influencerSeven, melHome, projectsEventCoordination } from 'assets/images';
+import { influencerSeven, melHome, projectsEventCoordination, projectsThree, projectsTwo } from 'assets/images';
 import { ProjectCard } from 'components';
 
 export const Projects = () => {
   return (
-    <div>
-      Projects
-      <div className="grid grid-cols-3">
+    <div className="flex-grow mt-16 bg-black">
+      <h1 className="text-white bg-black font-title text-7xl h-fit pt-5 pl-5 pr-5">Projects</h1>
+      <div className="h-full grid grid-cols-3 pb-24 bg-black">
         <ProjectCard
           imgSrc={projectsEventCoordination}
           eventTitle="Event Coordination"
@@ -13,13 +13,13 @@ export const Projects = () => {
           timeline="2021-2022"
         />
         <ProjectCard
-          imgSrc={melHome}
+          imgSrc={projectsTwo}
           eventTitle="Social Media Management"
           route="socialmediamanagement"
           timeline="2020-2022"
         />
         <ProjectCard
-          imgSrc={melHome}
+          imgSrc={projectsThree}
           eventTitle="Partnership Marketing"
           route="partnershipmarketing"
           timeline="2020-2022"

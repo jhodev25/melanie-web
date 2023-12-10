@@ -1,15 +1,15 @@
-import { melHome, socialOne, socialTwo } from 'assets/images';
+import { socialOne, socialTwo } from 'assets/images';
 
 export const SocialMediaManagement = () => {
   return (
     <>
-      <div className="bg-beige">
-        <h1 className="font-title text-9xl">Social Media Management</h1>
+      <div className="bg-black">
         <div className="grid grid-cols-2">
           <div>
             <img src={socialOne} alt="mel home" />
           </div>
           <div className="m-auto">
+            <h1 className="font-title text-9xl">Social Media Management</h1>
             <h2>Description</h2>
             <h3>
               I led the management of our two flagship social media accounts, primarily focusing on building and

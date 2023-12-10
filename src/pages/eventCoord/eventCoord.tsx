@@ -1,37 +1,51 @@
-import { Button } from '@mui/material';
+import { Button, Paper } from '@mui/material';
 
 import { eventsFifteen, eventsFive, eventsFourteen, eventsMel, eventsNine, melHome } from 'assets/images';
+import { RoundedPaper } from 'components';
 
 export const EventCoordination = () => {
   return (
-    <div className="w-auto h-auto">
-      <h1>Event Coordination</h1>
+    <div className="flex-grow mt-16 text-white bg-black pl-5 pr-5">
+      <h1 className="font-title text-7xl pt-5">Event Coordination</h1>
       <div className="columns-2">
-        <h2>LEAD EVENT COORDINATOR</h2>
-        <h3>
+        <br />
+        <h2 className="font-subheading text-2xl text-olive">LEAD EVENT COORDINATOR</h2>
+        <br />
+        <h3 className="font-body text-base">
           I spearheaded event planning initiatives in my role post-COVID-19 in 2021-2022. My responsibilities
           encompassed a wide range of events, with attendees ranging from 15 to 200, spanning both large-scale and
           intimate gatherings, hosted both at our dealership and various off-site locations.
         </h3>
-        <h3>
+        <br />
+        <h3 className="font-body text-base">
           I was entrusted with significant autonomy, empowering me to drive creative direction and make strategic
           decisions in collaboration with our Marketing Director.
         </h3>
         <img src={eventsMel} alt="mel" />
       </div>
-      <div className="h-auto">
-        <h2 className="text-center">RESPONSIBILITIES</h2>
-        <div className="columns-2">
-          <div className="m-auto">
+      <div className="h-auto p-3">
+        <br />
+        <h2 className="font-subheading text-2xl text-center text-olive">RESPONSIBILITIES</h2>
+        <br />
+        <div className="columns-2 h-full">
+          <div className="h-max">
             <img src={eventsNine} alt="event space" />
           </div>
-          <div className="h-fit bg-cyan-300">
-            <h3>
+          <div className="h-max">
+            <h3 className="body">
               Proficiently designed presentation slides to propose event concepts, outline event details, and create
               floorplans, facilitating efficient planning and visualization.
             </h3>
-            <Button>View Sample Deck</Button>
-            {/* todo: add action to this button */}
+            <br />
+            <Button
+              style={{ border: '2px solid olive', color: 'olive' }}
+              variant="outlined"
+              onClick={() => window.open('https://drive.google.com/drive/folders/1hOG_UHsVCb49_yR1UmTJzLaV2yA59P5s')}
+            >
+              View Sample Deck
+            </Button>
+            <br />
+            <br />
             <h3>
               Acted as the central point of contact for partnership activities, liaising effectively with vendors and
               third-party collaborators throughout the event lifecycle, including planning, execution, and
@@ -52,37 +66,50 @@ export const EventCoordination = () => {
       </div>
       <br />
       <div className="columns-2">
-        <h3>
+        <h3 className="text-right">
           Developed comprehensive shot lists for photo and video content collection, optimizing media capture during
           events for effective documentation and future promotional material.
         </h3>
-        <h3>
+        <br />
+        <h3 className="text-right">
           Provided hands-on, on-site supervision during event setup and tear-down, contributing to the seamless
           execution of events while ensuring the accordance of facility guidelines and guest safety.
         </h3>
         <img src={eventsFifteen} alt="porsche store" />
       </div>
+      <br />
+      <br />
       <div className="columns-3">
         <img src={eventsFive} alt="cover" />
         <img src={melHome} alt="cover" />
         <img src={eventsFourteen} alt="cover" />
       </div>
-      <div className="content-center bg-orange-400">
-        <h3>
-          During her time with Porsche Beaverton, I had the pleasure of partnering with Melanie in my role as Sales &
-          Hospitality Manager at Domaine Divio in Oregon’s Willamette Valley. Her professional, responsive communication
-          and thoughtful approach to reaching consumers made our partnership efficient and effective.
-        </h3>
-        <h3>
-          She has an energizing positive attitude, and was attentive and organized when planning events representing our
-          brands. I’m glad to have been able to work with her. If you are looking for someone who is capable and
-          marketing focused to represent your company, Melanie is your person.
-        </h3>
-        <h2>Matthew Melito</h2>
-        <h3>Sales & Hospitality Coordinator, Domaine Divio</h3>
+      <br />
+      <br />
+      <div className="w-screen h-full flex flex-col justify-center items-center">
+        <RoundedPaper
+          body="During her time with Porsche Beaverton, I had the pleasure
+            of partnering with Melanie in my role as Sales & Hospitality
+            Manager at Domaine Divio in Oregon’s Willamette Valley. Her
+            professional, responsive communication and thoughtful
+            approach to reaching consumers made our partnership
+            efficient and effective. <br><br> She has an energizing positive attitude, and was attentive
+            and organized when planning events representing our
+            brands. I’m glad to have been able to work with her. If you are
+            looking for someone who is capable and marketing focused
+            to represent your company, Melanie is your person."
+        />
+        <br />
+        <div>
+          <h2 className="text-white text-right text-3xl">Matthew Melito</h2>
+          <h3 className="text-right">Sales & Hospitality Coordinator, Domaine Divio</h3>
+        </div>
       </div>
-      <div>
-        <h1>CHRONOLOGY OF EVENTS</h1>
+      <br />
+      <br />
+      <div className="pb-10">
+        <h1 className="text-center text-6xl">CHRONOLOGY OF EVENTS</h1>
+        <br />
         <div className="columns-2">
           <div>
             <h3>Cars and Coffee (5 events per Summer)</h3>

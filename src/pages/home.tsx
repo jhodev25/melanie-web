@@ -11,8 +11,8 @@ export const Home = () => {
       <div className="h-screen flex flex-col justify-center items-left relative">
         <h1 className="font-title text-9xl">Melanie Ngai</h1>
         <br />
-        <h2 className="font-title text-3xl">Marketing | Event Coordination</h2>
-        <h2 className="font-title text-3xl">Based In San Francisco, California</h2>
+        <h2 className="font-title text-3xl text-white">Marketing | Event Coordination</h2>
+        <h2 className="font-title text-3xl text-white">Based In San Francisco, California</h2>
         <br />
         <Button className="bg-olive w-fit" onClick={() => window.location.assign('/contact')} variant="contained">
           Get in Touch

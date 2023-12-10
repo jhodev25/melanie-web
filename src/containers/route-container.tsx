@@ -17,18 +17,20 @@ const About = lazy(() => import('pages').then((res) => ({ default: res.About }))
 export const RouteContainer = () => {
   return (
     <Suspense fallback={<CircularProgress />}>
-      <TabMenu />
-      <Routes>
-        <Route element={<Home />} path="/" />
-        <Route element={<SocialMediaManagement />} path="/socialmediamanagement" />
-        <Route element={<Projects />} path="/projects" />
-        <Route element={<Contact />} path="/contact" />
-        <Route element={<EventCoordination />} path="/eventcoordination" />
-        <Route element={<PartnershipMarketing />} path="/partnershipmarketing" />
-        <Route element={<InfluencerMarketing />} path="/influencermarketing" />
-        <Route element={<MarketingMerchandising />} path="/marketingmerchandisinginternship" />
-        <Route element={<About />} path="/about" />
-      </Routes>
+      <div className="flex flex-col min-h-screen">
+        <TabMenu />
+        <Routes>
+          <Route element={<Home />} path="/" />
+          <Route element={<SocialMediaManagement />} path="/socialmediamanagement" />
+          <Route element={<Projects />} path="/projects" />
+          <Route element={<Contact />} path="/contact" />
+          <Route element={<EventCoordination />} path="/eventcoordination" />
+          <Route element={<PartnershipMarketing />} path="/partnershipmarketing" />
+          <Route element={<InfluencerMarketing />} path="/influencermarketing" />
+          <Route element={<MarketingMerchandising />} path="/marketingmerchandisinginternship" />
+          <Route element={<About />} path="/about" />
+        </Routes>
+      </div>
     </Suspense>
   );
 };

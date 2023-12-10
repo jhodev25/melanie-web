@@ -1,8 +1,8 @@
-import melHome from './melHome.jpg';
+import melHome from './melHome.png';
 import partnershipsNerlino from './partnershipsNerlino.png';
 import partnershipThornsOne from './partnershipThornsOne.jpg';
 import partnershipThornsTwo from './Partnerships_ThornsFC_02.jpg';
-import eventsMel from './Events_mel.jpg';
+import eventsMel from './Mel-2.png';
 import eventsOne from './Events_01.jpg';
 import eventsTwo from './Events_02.jpg';
 import eventsThree from './Events_03.jpg';
@@ -34,10 +34,12 @@ import partnershipsTedxOne from './Partnerships_Tedx_01.jpg';
 import partnershipsTedxTwo from './Partnerships_Tedx_02.jpg';
 import partnershipsTedxThree from './Partnerships_Tedx_03.jpg';
 import projectsEventCoordination from './Projects_EventCoordination.jpg';
+import projectsTwo from './projectsTwo.jpg';
+import projectsThree from './projectsThree.jpg'
 import socialOne from './Social_01.jpg';
 import socialTwo from './Social_02.jpg';
 
 
 export {
-  melHome, partnershipsNerlino, partnershipThornsOne, partnershipThornsTwo, eventsMel, eventsOne, eventsTwo, eventsThree, eventsFour, eventsFive, eventsSix,eventsSeven, eventsEight, eventsNine, eventsTen, eventsEleven, eventsTwelve, eventsThirteen, eventsFourteen, eventsFifteen, influencerOne, influencerTwo, influencerThree, influencerFour, influencerFive, influencerSix, influencerSeven, internship, partnershipsDeadstock, partnershipsOne, partnershipsTwo, partnershipsDivio, partnershipsTedxOne, partnershipsTedxTwo, partnershipsTedxThree, projectsEventCoordination, socialOne, socialTwo
+  melHome, projectsTwo, projectsThree, partnershipsNerlino, partnershipThornsOne, partnershipThornsTwo, eventsMel, eventsOne, eventsTwo, eventsThree, eventsFour, eventsFive, eventsSix,eventsSeven, eventsEight, eventsNine, eventsTen, eventsEleven, eventsTwelve, eventsThirteen, eventsFourteen, eventsFifteen, influencerOne, influencerTwo, influencerThree, influencerFour, influencerFive, influencerSix, influencerSeven, internship, partnershipsDeadstock, partnershipsOne, partnershipsTwo, partnershipsDivio, partnershipsTedxOne, partnershipsTedxTwo, partnershipsTedxThree, projectsEventCoordination, socialOne, socialTwo
 };

@@ -11,14 +11,18 @@ interface Props {
 
 export const ProjectCard: FC<Props> = (props) => {
   return (
-    <div>
+    <div className="pl-2 pr-2 pt-10 flex flex-col justify-center items-left h-full">
       <img src={props.imgSrc} alt="projectPhoto" />
       <br />
       <div className="divide-y">
-        <Button onClick={() => window.location.assign(`/${props.route}`)} variant="text">
+        <Button
+          className="font-title text-2xl text-white"
+          onClick={() => window.location.assign(`/${props.route}`)}
+          variant="text"
+        >
           {props.eventTitle}
         </Button>
-        <h3>{props.timeline}</h3>
+        <h3 className="text-white font-title text-xl pt-1">{props.timeline}</h3>
       </div>
     </div>
   );
