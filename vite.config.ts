@@ -16,6 +16,7 @@ export default defineConfig({
     react(),
     EnvironmentPlugin('all', { prefix: 'WEB_' }),
     checker({
+      overlay: false,
       eslint: {
         lintCommand: 'eslint --ignore-pattern "**/*.test.*" --cache --ext ts,tsx "./src/"',
       },
