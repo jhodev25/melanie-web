@@ -1,1 +1,0 @@
-export { RoundedPaper } from './paperRound';

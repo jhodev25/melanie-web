@@ -1,7 +1,13 @@
-import { Button } from '@mui/material';
+import { Button, Paper } from '@mui/material';
+import { styled } from '@mui/material/styles';
 
 import { eventsFifteen, eventsFive, eventsFourteen, eventsMel, eventsNine, melHome } from 'assets/images';
-import { RoundedPaper } from 'components';
+
+const RoundPaper = styled(Paper)(() => ({
+  width: 500,
+  height: 300,
+  padding: 10,
+}));
 
 export const EventCoordination = () => {
   return (
@@ -87,18 +93,20 @@ export const EventCoordination = () => {
       <br />
       <br />
       <div className="flex flex-col items-center justify-center w-screen h-full">
-        <RoundedPaper
-          body="During her time with Porsche Beaverton, I had the pleasure
-            of partnering with Melanie in my role as Sales & Hospitality
-            Manager at Domaine Divio in Oregon’s Willamette Valley. Her
-            professional, responsive communication and thoughtful
-            approach to reaching consumers made our partnership
-            efficient and effective. <br><br> She has an energizing positive attitude, and was attentive
-            and organized when planning events representing our
-            brands. I’m glad to have been able to work with her. If you are
-            looking for someone who is capable and marketing focused
-            to represent your company, Melanie is your person."
-        />
+        <RoundPaper className="text-white font-body bg-olive">
+          <h3>
+            During her time with Porsche Beaverton, I had the pleasure of partnering with Melanie in my role as Sales &
+            Hospitality Manager at Domaine Divio in Oregon’s Willamette Valley. Her professional, responsive
+            communication and thoughtful approach to reaching consumers made our partnership efficient and effective.
+          </h3>
+          <br />
+          <br />
+          <h3>
+            She has an energizing positive attitude, and was attentive and organized when planning events representing
+            our brands. I’m glad to have been able to work with her. If you are looking for someone who is capable and
+            marketing focused to represent your company, Melanie is your person.
+          </h3>
+        </RoundPaper>
         <br />
         <div>
           <h2 className="text-3xl text-right text-white">Matthew Melito</h2>
