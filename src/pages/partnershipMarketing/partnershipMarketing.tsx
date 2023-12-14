@@ -1,5 +1,6 @@
 import { Paper } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import { InstagramEmbed } from 'react-social-media-embed';
 
 import {
   partnershipThornsOne,
@@ -151,6 +152,7 @@ export const PartnershipMarketing = () => {
       </div>
       <br />
       <div className="columns-2">
+        <InstagramEmbed url="https://www.instagram.com/reel/CeB9_0KJnSO/?utm_source=ig_web_copy_link" width={328} />
         <img src={partnershipsTedxOne} alt="porsche tedx" />
         <img src={partnershipsTedxTwo} alt="mel mota" />
       </div>
