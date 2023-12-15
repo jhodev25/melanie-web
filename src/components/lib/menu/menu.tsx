@@ -1,5 +1,5 @@
 import MenuIcon from '@mui/icons-material/Menu';
-import { IconButton, Link, Menu, MenuItem } from '@mui/material';
+import { IconButton, Menu, MenuItem } from '@mui/material';
 import { useState } from 'react';
 
 const options = ['Home', 'Projects', 'About', 'Contact Me'];
@@ -7,12 +7,16 @@ const options = ['Home', 'Projects', 'About', 'Contact Me'];
 const ITEM_HEIGHT = 48;
 
 export const MenuButton = () => {
-  const [anchorEl, setAnchorEl] = useState(null);
+  const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
   const open = Boolean(anchorEl);
-  const handleClick = (event: any) => {
-    setAnchorEl(event.currentTarget);
+
+  const handleClick = (event: React.MouseEvent<HTMLElement>) => {
+    // Make sure to check that event.currentTarget is an HTMLElement
+    if (event.currentTarget instanceof HTMLElement) {
+      setAnchorEl(event.currentTarget);
+    }
   };
-  const handleClose = (option: any) => {
+  const handleClose = (option: string) => {
     if (option === 'Home') {
       window.location.assign('/');
     } else if (option === 'Contact Me') {

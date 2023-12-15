@@ -7,7 +7,6 @@ import {
   partnershipThornsTwo,
   partnershipsNerlino,
   partnershipsOne,
-  partnershipsTedxOne,
   partnershipsTedxTwo,
   partnershipsTwo,
 } from 'assets/images';
@@ -49,9 +48,9 @@ export const PartnershipMarketing = () => {
         </h3>
         <br />
         <h3>
-          Revise creative designs and messaging for local sports sponsorships, encompassing LED boards, in-stadium video
+          {`Revise creative designs and messaging for local sports sponsorships, encompassing LED boards, in-stadium video
           boards, concourse signage, print materials, digital, social, and premium giveaways in collaboration with
-          Portland's MLS teams.
+          Portland's MLS teams.`}
         </h3>
         <br />
         <h3>
@@ -90,8 +89,8 @@ export const PartnershipMarketing = () => {
           <h2 className="text-4xl">OUTCOMES</h2>
           <br />
           <h3>
-            Established a robust network of 12+ partners and trusted contacts within two years, amplifying the brand's
-            local community reach and impact, with a strong focus on vendor relations.
+            {`Established a robust network of 12+ partners and trusted contacts within two years, amplifying the brand's
+            local community reach and impact, with a strong focus on vendor relations.`}
           </h3>
           <br />
           <h3>
@@ -143,7 +142,7 @@ export const PartnershipMarketing = () => {
         <h3>Portland Timbers FC</h3>
         <h3>Portland Thorns FC</h3>
         <h3>The Dougy Center</h3>
-        <h3>Children's Cancer Association</h3>
+        <h3>Children&apos;ss Cancer Association</h3>
         <h3>Asante Foundation</h3>
         <h3>Portland Cars and Coffee</h3>
         <h3>Rosewild Designs</h3>
@@ -152,8 +151,7 @@ export const PartnershipMarketing = () => {
       </div>
       <br />
       <div className="columns-2">
-        <InstagramEmbed url="https://www.instagram.com/reel/CeB9_0KJnSO/?utm_source=ig_web_copy_link" width={328} />
-        <img src={partnershipsTedxOne} alt="porsche tedx" />
+        <InstagramEmbed url="https://www.instagram.com/p/CeB587qJ7mK/?utm_source=ig_web_copy_link" width={328} />
         <img src={partnershipsTedxTwo} alt="mel mota" />
       </div>
     </div>

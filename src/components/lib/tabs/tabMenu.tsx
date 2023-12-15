@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Box, Tabs, Tab, Menu, MenuItem, Button } from '@mui/material';
 import { useState } from 'react';
 

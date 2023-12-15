@@ -1,7 +1,8 @@
 import { Button, Paper } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import { InstagramEmbed } from 'react-social-media-embed';
 
-import { eventsFifteen, eventsFive, eventsFourteen, eventsMel, eventsNine, melHome } from 'assets/images';
+import { eventsFifteen, eventsMel, eventsNine } from 'assets/images';
 
 const RoundPaper = styled(Paper)(() => ({
   width: 500,
@@ -82,13 +83,14 @@ export const EventCoordination = () => {
           execution of events while ensuring the accordance of facility guidelines and guest safety.
         </h3>
         <img src={eventsFifteen} alt="porsche store" />
+        <InstagramEmbed url="https://www.instagram.com/reel/CeB9_0KJnSO/?utm_source=ig_web_copy_link" width={328} />
       </div>
       <br />
       <br />
       <div className="columns-3">
-        <img src={eventsFive} alt="cover" />
-        <img src={melHome} alt="cover" />
-        <img src={eventsFourteen} alt="cover" />
+        <InstagramEmbed url="https://www.instagram.com/reel/CQj-Vu9hvuB/?utm_source=ig_web_copy_link" width={328} />
+        <InstagramEmbed url="https://www.instagram.com/p/CO5oGcoBay3/?utm_source=ig_web_copy_link" width={328} />
+        <InstagramEmbed url="https://www.instagram.com/p/CS2Y7r2Bv-3/?utm_source=ig_web_copy_link" width={328} />
       </div>
       <br />
       <br />
@@ -125,7 +127,7 @@ export const EventCoordination = () => {
             <h3>Porsche Taycan Launch</h3>
             <h3>Domaine Serene Summer Car Classic</h3>
             <h3>Portland Charity Toy Drive and Car Meet</h3>
-            <h3>Avants Portland Magazine Women's Day</h3>
+            <h3>Avants Portland Magazine Women&apos;ss Day</h3>
             <h3>Sunset Imports Company Party</h3>
             <h3>Porsche Cup Golf Tournament</h3>
             <h3>Porsche + Pinot Client Application</h3>
